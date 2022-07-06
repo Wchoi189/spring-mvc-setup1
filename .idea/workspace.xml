@@ -9,22 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a79fca86-25e1-461d-b4ad-d4d13154bc1b" name="Changes" comment="still not working">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/board/config/AppContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/board/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/board/config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/board/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/board/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+    <list default="true" id="a79fca86-25e1-461d-b4ad-d4d13154bc1b" name="Changes" comment="Mvc setup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/board/config/AppContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carrot/springmvc/config/AppContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/board/config/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carrot/springmvc/config/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/board/config/MyBatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/board/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carrot/springmvc/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/board/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carrot/springmvc/controller/HomeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +60,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/Carrot/Desktop/spring-mvc4/src/main/resources",
-    "project.structure.last.edited": "Problems",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Sass/SCSS",
@@ -78,6 +69,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Carrot\Desktop\spring-mvc4\src\main\resources" />
       <recent name="C:\Users\Carrot\Desktop\spring-mvc4\src\main\java\com\board\config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -88,6 +80,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="spring-mvc-setup" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="spring-mvc-setup" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 8.5.81" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.81" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <deployment>
         <artifact name="spring-mvc4:war exploded">
@@ -185,8 +190,16 @@
       <updated>1657014101639</updated>
       <workItem from="1657014103058" duration="1564000" />
       <workItem from="1657015710777" duration="35000" />
-      <workItem from="1657066526012" duration="1790000" />
+      <workItem from="1657066526012" duration="3166000" />
     </task>
+    <task id="LOCAL-00001" summary="Mvc setup">
+      <created>1657068418584</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657068418584</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +218,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="still not working" />
-    <option name="LAST_COMMIT_MESSAGE" value="still not working" />
+    <MESSAGE value="Mvc setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mvc setup" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

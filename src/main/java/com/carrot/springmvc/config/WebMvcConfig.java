@@ -1,4 +1,4 @@
-package com.board.config;
+package com.carrot.springmvc.config;
 
 
 import org.springframework.context.annotation.Bean;
@@ -11,7 +11,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan(basePackages = "com.board.controller")
+@ComponentScan(basePackages = "com.carrot.springmvc.controller")
 public class WebMvcConfig implements WebMvcConfigurer{
     // + JSP View Resolver
     @Bean
