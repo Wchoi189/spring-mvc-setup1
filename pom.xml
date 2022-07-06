@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.carrot</groupId>
-  <artifactId>spring-mvc4</artifactId>
+  <artifactId>spring-mvc</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>spring-mvc4 Maven Webapp</name>
+  <name>spring-mvc Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -23,8 +23,9 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
-      <version>5.3.21</version>
+      <version>5.3.17</version>
     </dependency>
+
 
     <dependency>
       <groupId>junit</groupId>
@@ -46,12 +47,28 @@
       <version>1.2</version>
     </dependency>
 
+    <!--    Thymeleaf Libraries-->
+    <dependency>
+      <groupId>org.thymeleaf</groupId>
+      <artifactId>thymeleaf</artifactId>
+      <version>3.0.15.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.thymeleaf</groupId>
+      <artifactId>thymeleaf-spring5</artifactId>
+      <version>3.0.15.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>nz.net.ultraq.thymeleaf</groupId>
+      <artifactId>thymeleaf-layout-dialect</artifactId>
+      <version>3.1.0</version>
+    </dependency>
     <!-- log4j2 -->
     <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-core</artifactId>
-      <version>2.12.4</version>
+      <version>2.17.2</version>
     </dependency>
 
     <!-- slf4j -->
@@ -62,10 +79,14 @@
       <version>2.0.0-alpha1</version>
     </dependency>
 
+    <!-- slf4j driver log4j -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>2.0.0-alpha1</version>
+    </dependency>
+
     <!--   추가 Libraries-->
-
-
-
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -89,7 +110,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-jdbc</artifactId>
-      <version>5.3.20</version>
+      <version>5.3.17</version>
     </dependency>
 
     <dependency>
@@ -108,7 +129,7 @@
   </dependencies>
 
   <build>
-    <finalName>spring-mvc4</finalName>
+    <finalName>spring-mvc</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
