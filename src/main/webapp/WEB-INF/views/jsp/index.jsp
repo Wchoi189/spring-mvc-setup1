@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello Spring MVC!</h2>
+<h2>Hello Jsp page!</h2>
 </body>
 </html>

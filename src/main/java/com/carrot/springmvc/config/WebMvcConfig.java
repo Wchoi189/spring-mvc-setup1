@@ -26,8 +26,8 @@ public class WebMvcConfig implements WebMvcConfigurer {
     public InternalResourceViewResolver jspViewResolver(){
         final InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
         viewResolver.setViewClass(JstlView.class);
-        viewResolver.setPrefix("/WEB-INF/views/jsp/");
-        viewResolver.setViewNames("*.jsp");
+        viewResolver.setPrefix("/WEB-INF/views/");
+      /*  viewResolver.setViewNames("*.jsp");*/
         return viewResolver;
     }
 
@@ -43,8 +43,8 @@ public class WebMvcConfig implements WebMvcConfigurer {
     public SpringResourceTemplateResolver templateResolver() {
         SpringResourceTemplateResolver srtr = new SpringResourceTemplateResolver();
         srtr.setApplicationContext(applicationContext);
-        srtr.setPrefix("/WEB-INF/views/html/");
-        srtr.setSuffix(".html");
+        srtr.setPrefix("/WEB-INF/views/");
+       /* srtr.setSuffix(".html");*/
         return srtr;
     }
 

@@ -2,33 +2,14 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="spring-mvc4:war exploded" />
+      <artifact name="spring-mvc:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a79fca86-25e1-461d-b4ad-d4d13154bc1b" name="Changes" comment="Mvc setup">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/carrot/springmvc/app/board/controller/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/board.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/java/com/carrot/springmvc/app/board/controller/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/java/com/carrot/springmvc/config/AppContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/java/com/carrot/springmvc/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/java/com/carrot/springmvc/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/WEB-INF/views/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/carrot/springmvc/config/AppContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carrot/springmvc/config/AppContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/carrot/springmvc/config/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carrot/springmvc/config/AppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/carrot/springmvc/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carrot/springmvc/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/carrot/springmvc/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="a79fca86-25e1-461d-b4ad-d4d13154bc1b" name="Changes" comment="Mvc setup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +60,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Carrot/Desktop/spring-mvc4/src/main/java",
+    "last_opened_file_path": "C:/Users/wchoi/IdeaProjects/spring-mvc-setup1/src/main/resources",
     "list.type.of.created.stylesheet": "CSS",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
@@ -93,6 +74,7 @@
       <recent name="com.carrot.springmvc.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wchoi\IdeaProjects\spring-mvc-setup1\src\main\resources" />
       <recent name="C:\Users\Carrot\Desktop\spring-mvc4\src\main\java" />
       <recent name="C:\Users\Carrot\Desktop\spring-mvc4\src" />
       <recent name="C:\Users\Carrot\Desktop\spring-mvc4\src\main\resources" />
@@ -124,15 +106,18 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.81" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.81" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dspring.profiles.active=dev" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="spring-mvc4:war exploded">
+        <artifact name="spring-mvc:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="c8e5221c-edf5-48f6-be16-78aef185e023" />
+        <option name="BASE_DIRECTORY_NAME" value="f6e222c9-1556-4580-8593-e4c4ed9f554a" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -140,7 +125,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51032" />
+        <option name="DEBUG_PORT" value="57946" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -205,7 +190,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="spring-mvc4:war exploded" />
+          <artifact name="spring-mvc:war exploded" />
         </option>
       </method>
     </configuration>
@@ -221,6 +206,7 @@
       <workItem from="1657014103058" duration="1564000" />
       <workItem from="1657015710777" duration="35000" />
       <workItem from="1657066526012" duration="13304000" />
+      <workItem from="1664118818334" duration="772000" />
     </task>
     <task id="LOCAL-00001" summary="Mvc setup">
       <created>1657068418584</created>
